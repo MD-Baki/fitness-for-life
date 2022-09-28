@@ -1,0 +1,29 @@
+.header {
+    background-color: #201b1e;
+    padding: 20px 0;
+    color: #fff;
+    border-bottom: 4px solid #6e636a;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header a {
+    text-transform: capitalize;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icone {
+    padding-right: 8px;
+    font-size: 25px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}

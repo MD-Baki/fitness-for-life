@@ -1,3 +1,50 @@
+.exercise-info {
+    padding: 10px;
+    border: 2px solid #6e636a;
+    border-radius: 10px;
+}
+
 .exercise-info img {
+    border-radius: 10px;
     width: 100%;
+}
+
+.exercise-details h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #201b1e;
+    padding-top: 15px;
+}
+
+.exercise-details p {
+    font-size: 16px;
+    color: #3b3b3b;
+    line-height: 20px;
+    padding: 12px 0;
+}
+
+.exercise-details H6 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 7px;
+    color: #201b1e;
+}
+
+button {
+    background-color: #201b1e;
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button p {
+    padding-right: 8px;
 }

@@ -3,7 +3,7 @@
     "id": "01",
     "name": "Push Up",
     "age": "18-30",
-    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be healthy, so it is important to take care of our body. So everyone should practice daily exercise to keep themselves healthy.",
+    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be good healthy, so it is important to take care of our body.",
     "duration": 40,
     "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
   },
@@ -11,23 +11,23 @@
     "id": "02",
     "name": "Strength Training",
     "age": "25-35",
-    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be healthy, so it is important to take care of our body. So everyone should practice daily exercise to keep themselves healthy.",
+    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be good healthy, so it is important to take care of our body.",
     "duration": 30,
     "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   },
   {
     "id": "03",
-    "name": "cycling",
+    "name": "Cycling",
     "age": "15-25",
-    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be healthy, so it is important to take care of our body. So everyone should practice daily exercise to keep themselves healthy.",
+    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be good healthy, so it is important to take care of our body.",
     "duration": 300,
     "img": "https://images.unsplash.com/photo-1599112783272-c5d3792a4a89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
   },
   {
     "id": "04",
-    "name": "deadlift",
+    "name": "Deadlift",
     "age": "22-35",
-    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be healthy, so it is important to take care of our body. So everyone should practice daily exercise to keep themselves healthy.",
+    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be good healthy, so it is important to take care of our body.",
     "duration": 60,
     "img": "https://images.unsplash.com/photo-1534368270820-9de3d8053204?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   },
@@ -35,7 +35,7 @@
     "id": "05",
     "name": "Pull Up",
     "age": "20-40",
-    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be healthy, so it is important to take care of our body. So everyone should practice daily exercise to keep themselves healthy.",
+    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be good healthy, so it is important to take care of our body.",
     "duration": 40,
     "img": "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   },
@@ -43,7 +43,7 @@
     "id": "06",
     "name": "Stretching",
     "age": "20-35",
-    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be healthy, so it is important to take care of our body. So everyone should practice daily exercise to keep themselves healthy.",
+    "details": "There is no substitute for exercise to keep yourself healthy. We all want to be good healthy, so it is important to take care of our body.",
     "duration": 50,
     "img": "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
   }
