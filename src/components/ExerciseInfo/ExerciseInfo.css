@@ -1,7 +1,8 @@
 .exercise-info {
     padding: 10px;
-    border: 2px solid #6e636a;
+    background-color: #fff;
     border-radius: 10px;
+    box-shadow: -3px 0px 11px -1px rgba(0, 0, 0, 0.16);
 }
 
 .exercise-info img {
@@ -12,7 +13,7 @@
 .exercise-details h4 {
     font-size: 20px;
     font-weight: 700;
-    color: #201b1e;
+    color: #000;
     padding-top: 15px;
 }
 
@@ -27,15 +28,15 @@
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 7px;
-    color: #201b1e;
+    color: #000;
 }
 
 button {
-    background-color: #201b1e;
+    background-color: #5d5fef;
     width: 100%;
     padding: 15px 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;

@@ -1,0 +1,40 @@
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    font-size: 45px;
+    color: #5d5fef;
+    padding-right: 12px;
+}
+
+.user p {
+    color: #3f3f3f;
+    padding-top: 5px;
+}
+
+.user-details {
+    margin: 25px 0;
+    background-color: #f2f4fa;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-details span {
+    color: #3f3f3f;
+}
+
+.user-details p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 8px;
+    text-align: center;
+
+}

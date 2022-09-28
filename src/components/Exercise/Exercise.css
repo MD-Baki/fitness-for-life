@@ -3,9 +3,35 @@
     grid-template-columns: 3fr 1fr;
 }
 
+.left-sec {
+    background-color: #f2f4fa;
+}
+
+.header {
+    padding-left: 90px;
+    padding-top: 80px;
+}
+
+.header h1 {
+    color: #5d5fef;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .info-container {
-    padding: 80px 80px;
+    padding: 30px 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
+}
+
+.fitness-cart {
+    padding: 20px;
+    box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.25) inset;
 }
