@@ -27,6 +27,22 @@ const Cart = () => {
                     <p>Age</p>
                 </div>
             </div>
+            <div className="activetis">
+                <h4>Add A Break</h4>
+                <div className="brack-time">
+                    <p>20s</p>
+                    <p>40s</p>
+                    <p>60s</p>
+                    <p>80s</p>
+                    <p>90s</p>
+                </div>
+                <h4>Exercise Details</h4>
+                <div className="exercise-entry">
+                    <p>Exercise time: 0</p>
+                    <p>Break time: 0</p>
+                </div>
+            </div>
+            <button>Activity Completed</button>
         </div>
     );
 };

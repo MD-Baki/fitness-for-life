@@ -19,12 +19,10 @@
     background-color: #f2f4fa;
     padding: 15px 10px;
     border-radius: 8px;
-}
-
-.user-details {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .user-details span {
@@ -37,4 +35,42 @@
     padding-top: 8px;
     text-align: center;
 
+}
+
+.activetis {
+    margin-bottom: 40px;
+}
+
+.activetis h4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.brack-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f4fa;
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.brack-time p {
+    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.exercise-entry p {
+    background-color: #f2f4fa;
+    font-weight: 500;
+    padding: 15px 10px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
