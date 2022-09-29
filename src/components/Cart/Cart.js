@@ -1,11 +1,13 @@
 import { faLocation, faLocationDot, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
 
 const Cart = ({ cart }) => {
+
+    const [breakTime, setBreakTime] = useState(0)
 
     let totalDuration = 0;
     for (const exercise of cart) {
@@ -34,7 +36,7 @@ const Cart = ({ cart }) => {
                 </div>
                 <div className="height">
                     <span>65kg</span>
-                    <p>weigth</p>
+                    <p>Weight</p>
                 </div>
                 <div className="height">
                     <span>23yrs</span>
@@ -44,16 +46,16 @@ const Cart = ({ cart }) => {
             <div className="activetis">
                 <h4>Add A Break</h4>
                 <div className="break-time">
-                    <p><span>20</span>s</p>
-                    <p><span>40</span>s</p>
-                    <p><span>60</span>s</p>
-                    <p><span>80</span>s</p>
-                    <p><span>90</span>s</p>
+                    <p onClick={() => setBreakTime(20)}>20s</p>
+                    <p onClick={() => setBreakTime(40)}>40s</p>
+                    <p onClick={() => setBreakTime(60)}>60s</p>
+                    <p onClick={() => setBreakTime(80)}>80s</p>
+                    <p onClick={() => setBreakTime(90)}>90s</p>
                 </div>
                 <h4>Exercise Details</h4>
                 <div className="exercise-entry">
                     <p>Exercise time: {totalDuration} sec</p>
-                    <p>Break time: 0 sec</p>
+                    <p>Break time: {breakTime} sec</p>
                 </div>
             </div>
             <button onClick={showTost}>Activity Completed</button>

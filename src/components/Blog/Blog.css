@@ -36,6 +36,12 @@
     padding-top: 10px;
 }
 
+@media (min-width:769px) and (max-width:1019.98px) {
+    .blog {
+        padding: 50px 40px;
+    }
+}
+
 @media(max-width:768px) {
     .blog {
         padding: 50px 20px;

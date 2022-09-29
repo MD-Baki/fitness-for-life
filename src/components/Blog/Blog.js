@@ -21,7 +21,7 @@ const Blog = () => {
                 </p>
             </div>
             <div className="q-and-a">
-                <h4><FontAwesomeIcon icon={faAnglesRight}></FontAwesomeIcon> For what purpose do we use useEffect except api</h4>
+                <h4><FontAwesomeIcon icon={faAnglesRight}></FontAwesomeIcon> For what purpose do we use useEffect except api.</h4>
                 <p>This is another useful hook for when we want to trigger an action when the component state changes, and not when the component mounts. You can consider it the ComponentWIllUpdate alternative for functional React. This one - calls the callback each time the state changes, triggering an action</p>
             </div>
         </div>

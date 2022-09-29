@@ -35,6 +35,18 @@
     margin-bottom: 30px;
 }
 
+@media (min-width:769px) and (max-width:1000px) {
+    .header {
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+
+    .info-container {
+        padding: 30px 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media(max-width:768px) {
     .exercise-container {
         grid-template-columns: 1fr;
