@@ -8,9 +8,8 @@ const Blog = () => {
         <div className='blog'>
             <h2><FontAwesomeIcon icon={faBlog}></FontAwesomeIcon> Blog</h2>
             <div className="q-and-a">
-                <h4><FontAwesomeIcon icon={faAnglesRight}></FontAwesomeIcon> What Is React And How Does It Actually Work?</h4>
-                <p>ReactJS is one of the most popular JavaScript libraries for mobile and web application development. Created by Facebook, React contains a collection of reusable JavaScript code snippets used for user interface (UI) building called components.
-                    <span>It’s important to note that ReactJS is not a JavaScript framework. That’s because it’s only responsible for rendering the components of an application’s view layer. React is an alternative to frameworks like Angular and Vue, which all allow to create complex functions.</span></p>
+                <h4><FontAwesomeIcon icon={faAnglesRight}></FontAwesomeIcon> How Does React Actually Work?</h4>
+                <p>While building client-side apps, a team of Facebook developers realized that the DOM is slow (The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.). So, to make it faster, React implements a virtual DOM that is basically a DOM tree representation in JavaScript. So when it needs to read or write to the DOM, it will use the virtual representation of it. Then the virtual DOM will try to find the most efficient way to update the browser’s DOM.</p>
             </div>
             <div className="q-and-a">
                 <h4><FontAwesomeIcon icon={faAnglesRight}></FontAwesomeIcon> Differences between props and state ?</h4>

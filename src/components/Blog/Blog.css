@@ -5,6 +5,7 @@
 
 .blog h2 {
     color: #213d2e;
+    text-align: center;
 }
 
 .q-and-a {
@@ -28,7 +29,6 @@
     background-color: #F8FFF8;
     color: #213d2e;
     font-size: 16px;
-    text-align: justify;
     padding: 8px 10px;
     line-height: 20px;
 }
