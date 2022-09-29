@@ -1,3 +1,8 @@
+.cart-container {
+    position: sticky;
+    top: 30px;
+}
+
 .user {
     display: flex;
     align-items: center;
@@ -47,7 +52,7 @@
     font-weight: 500;
 }
 
-.brack-time {
+.break-time {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +62,7 @@
     margin-bottom: 30px;
 }
 
-.brack-time p {
+.break-time p {
     margin: 0 2px;
     width: 40px;
     height: 40px;
@@ -65,6 +70,13 @@
     text-align: center;
     background-color: #FFF;
     border-radius: 50%;
+    cursor: pointer;
+    transition: .2s all linear;
+}
+
+.break-time p:hover {
+    background-color: #5d5fef;
+    color: #fff;
 }
 
 .exercise-entry p {

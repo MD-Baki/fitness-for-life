@@ -16,7 +16,7 @@ const Exercise = () => {
     }, [])
 
     const addToList = (info) => {
-        console.log(info.duration);
+        // console.log(info.duration);
         const newCart = [...cart, info]
         setCart(newCart);
     }
