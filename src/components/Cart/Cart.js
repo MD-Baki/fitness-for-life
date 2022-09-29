@@ -1,4 +1,4 @@
-import { faLocation, faLocationDot, faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useRef, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
@@ -26,24 +26,21 @@ const Cart = ({ cart }) => {
     return (
         <div className='cart-container'>
             <div className="user">
-                <FontAwesomeIcon className='user-img' icon={faUserSecret}></FontAwesomeIcon>
+                <h2>MD.Abdulla Hale Baki</h2>
+                <p><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Agrabad, Chittagong</p>
                 <div className="user-info">
-                    <h2>MD. Abdulla</h2>
-                    <p> <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Agrabad, Chittagong</p>
-                </div>
-            </div>
-            <div className="user-details">
-                <div className="height">
-                    <span>5.5fit</span>
-                    <p>Height</p>
-                </div>
-                <div className="height">
-                    <span>65kg</span>
-                    <p>Weight</p>
-                </div>
-                <div className="height">
-                    <span>23yrs</span>
-                    <p>Age</p>
+                    <div className="info-item">
+                        <p>5.5 fit</p>
+                        <p>Height</p>
+                    </div>
+                    <div className="info-item">
+                        <p>65 kg</p>
+                        <p>Weight</p>
+                    </div>
+                    <div className="info-item">
+                        <p>23 yrs</p>
+                        <p>Age</p>
+                    </div>
                 </div>
             </div>
             <div className="activetis">

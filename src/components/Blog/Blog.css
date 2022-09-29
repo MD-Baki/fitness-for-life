@@ -1,22 +1,23 @@
 .blog {
     padding: 80px 90px;
-    background-color: #f2f4fa;
+    background-color: #fff;
 }
 
 .blog h2 {
-    color: #5d5fef;
+    color: #213d2e;
 }
 
 .q-and-a {
     margin: 30px 0;
     background-color: #fff;
-    box-shadow: -3px 0px 11px -1px rgba(0, 0, 0, 0.16);
+    box-shadow: -3px 0px 11px -1px rgba(191, 226, 190, 0.46);
+    border: 2px solid rgb(191, 226, 190);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .q-and-a h4 {
-    background-color: #5d5fef;
+    background-color: #213D2E;
     color: #fff;
     font-size: 22px;
     font-weight: 500;
@@ -24,7 +25,8 @@
 }
 
 .q-and-a p {
-    color: #424242;
+    background-color: #F8FFF8;
+    color: #213d2e;
     font-size: 16px;
     text-align: justify;
     padding: 8px 10px;

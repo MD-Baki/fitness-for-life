@@ -1,7 +1,7 @@
 .exercise-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: #f2f4fa;
+    background-color: #fff;
 }
 
 .header {
@@ -10,7 +10,7 @@
 }
 
 .header h1 {
-    color: #5d5fef;
+    color: #213D2E;
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 15px;
@@ -25,13 +25,13 @@
     padding: 30px 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 25px;
 }
 
 .fitness-cart {
     background-color: #fff;
     padding: 30px 20px;
-    box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 1px 0px 5px 0px rgba(33, 61, 46, 0.35) inset;
     margin-bottom: 30px;
 }
 
