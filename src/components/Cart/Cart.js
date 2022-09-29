@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = ({ cart }) => {
     return (
         <div>
             <div className="user">
@@ -38,7 +38,7 @@ const Cart = () => {
                 </div>
                 <h4>Exercise Details</h4>
                 <div className="exercise-entry">
-                    <p>Exercise time: 0</p>
+                    <p>Exercise time: {cart.length}</p>
                     <p>Break time: 0</p>
                 </div>
             </div>

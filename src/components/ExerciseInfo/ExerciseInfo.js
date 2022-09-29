@@ -5,7 +5,8 @@ import './ExerciseInfo.css'
 
 const ExerciseInfo = (props) => {
 
-    const { name, age, details, duration, img } = props.info
+    const { handleAddToList, info } = props;
+    const { name, age, details, duration, img } = info;
 
     return (
         <div className='exercise-info'>
@@ -16,7 +17,7 @@ const ExerciseInfo = (props) => {
                 <h6>For Age: {age}</h6>
                 <h6>Time Required: {duration}s</h6>
             </div>
-            <button>
+            <button onClick={() => handleAddToList(info)}>
                 <p>Add To List</p>
                 <FontAwesomeIcon icon={faCheck}></FontAwesomeIcon>
             </button>

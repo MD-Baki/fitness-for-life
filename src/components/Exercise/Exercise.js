@@ -7,12 +7,19 @@ import './Exercise.css'
 
 const Exercise = () => {
     const [exerciseInfo, setexerciseInfo] = useState([])
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('exercise.json')
             .then(res => res.json())
             .then(data => setexerciseInfo(data))
     }, [])
+
+    const addToList = (info) => {
+        console.log(info.duration);
+        const newCart = [...cart, info]
+        setCart(newCart);
+    }
 
     return (
         <div className='exercise-container'>
@@ -26,12 +33,13 @@ const Exercise = () => {
                         exerciseInfo.map(info => <ExerciseInfo
                             key={info.id}
                             info={info}
+                            handleAddToList={addToList}
                         ></ExerciseInfo>)
                     }
                 </div>
             </div>
             <div className="fitness-cart">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
