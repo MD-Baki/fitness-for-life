@@ -22,24 +22,26 @@ const Exercise = () => {
     }
 
     return (
-        <div className='exercise-container'>
-            <div className='left-sec'>
-                <div className="header">
-                    <h1> <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> Fitness For Life</h1>
-                    <p>Select today’s exercise</p>
+        <div>
+            <div className='exercise-container'>
+                <div className='left-sec'>
+                    <div className="header">
+                        <h1> <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> Fitness For Life</h1>
+                        <p>Select today’s exercise</p>
+                    </div>
+                    <div className="info-container">
+                        {
+                            exerciseInfo.map(info => <ExerciseInfo
+                                key={info.id}
+                                info={info}
+                                handleAddToList={addToList}
+                            ></ExerciseInfo>)
+                        }
+                    </div>
                 </div>
-                <div className="info-container">
-                    {
-                        exerciseInfo.map(info => <ExerciseInfo
-                            key={info.id}
-                            info={info}
-                            handleAddToList={addToList}
-                        ></ExerciseInfo>)
-                    }
+                <div className="fitness-cart">
+                    <Cart cart={cart}></Cart>
                 </div>
-            </div>
-            <div className="fitness-cart">
-                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
